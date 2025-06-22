@@ -1,0 +1,3 @@
+# ignore cache or state
+.cache/
+*.lock
