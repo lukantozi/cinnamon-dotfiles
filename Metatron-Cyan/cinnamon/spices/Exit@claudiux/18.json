@@ -1,0 +1,137 @@
+{
+    "sectionOSD": {
+        "type": "section",
+        "dependency": "displayRestartCinnamonSetting",
+        "description": "Cinnamon restart"
+    },
+    "showOSD": {
+        "type": "switch",
+        "default": true,
+        "description": "Show OSD while restarting Cinnamon",
+        "tooltip": "OSD: On Screen Display",
+        "value": true
+    },
+    "sectionMenu": {
+        "type": "section",
+        "description": "Menu options"
+    },
+    "showRestartCinnamon": {
+        "type": "switch",
+        "dependency": "displayRestartCinnamonSetting",
+        "default": true,
+        "description": "Show the Restart Cinnamon option",
+        "value": true
+    },
+    "showSuspend": {
+        "type": "switch",
+        "default": true,
+        "description": "Show the Suspend option",
+        "value": true
+    },
+    "showHibernate": {
+        "type": "switch",
+        "default": true,
+        "description": "Show the Hibernate option",
+        "value": false
+    },
+    "hibernateNeedsSudo": {
+        "type": "switch",
+        "default": false,
+        "dependency": "showHibernate",
+        "description": "Hibernate needs root user rights (sudo)",
+        "value": false
+    },
+    "showRestart": {
+        "type": "switch",
+        "default": true,
+        "description": "Show the Restart option",
+        "value": true
+    },
+    "showPowerOff": {
+        "type": "switch",
+        "default": true,
+        "description": "Show the Power Off option",
+        "value": true
+    },
+    "labelOthers": {
+        "type": "label",
+        "description": "All the menu options below may be managed by the system.\nIf they are, you can't see them."
+    },
+    "showScreenOff": {
+        "type": "switch",
+        "default": true,
+        "description": "Show the Screen Off option",
+        "value": true
+    },
+    "mouse-deactivation-duration": {
+        "type": "scale",
+        "dependency": "showScreenOff",
+        "default": 5,
+        "min": 1,
+        "max": 15,
+        "step": 1,
+        "units": "seconds",
+        "show-value": true,
+        "description": "Duration of deactivation of the mouse",
+        "tooltip": "To prevent the monitor from turning on too soon after turning it off, the mouse will be disabled for the number of seconds set here.",
+        "value": 5
+    },
+    "showLockscreen": {
+        "type": "switch",
+        "dependency": "displayLockScreenSetting",
+        "default": true,
+        "description": "Show the Lock Screen option",
+        "tooltip": "Managed by system",
+        "value": true
+    },
+    "showSwitchUser": {
+        "type": "switch",
+        "dependency": "displaySwitchUserSetting",
+        "default": true,
+        "description": "Show the Switch User option",
+        "tooltip": "Managed by system",
+        "value": true
+    },
+    "showLogout": {
+        "type": "switch",
+        "dependency": "displayLogoutSetting",
+        "default": true,
+        "description": "Show the Log Out option",
+        "tooltip": "Managed by system",
+        "value": true
+    },
+    "logoutMode": {
+        "type": "combobox",
+        "dependency": "displayLogoutSetting",
+        "default": "--no-prompt",
+        "description": "Log Out Mode",
+        "options": {
+            "With confirmation": "",
+            "Without confirmation": "--no-prompt",
+            "Force": "--force"
+        },
+        "tooltip": "The 'Force' option lets you log out while ignoring inhibitors. Useful when several sessions are open.",
+        "value": "--no-prompt"
+    },
+    "displayLockScreenSetting": {
+        "type": "generic",
+        "default": true,
+        "value": true
+    },
+    "displaySwitchUserSetting": {
+        "type": "generic",
+        "default": true,
+        "value": true
+    },
+    "displayLogoutSetting": {
+        "type": "generic",
+        "default": true,
+        "value": true
+    },
+    "displayRestartCinnamonSetting": {
+        "type": "generic",
+        "default": true,
+        "value": true
+    },
+    "__md5__": "c34a348ea89d7ddb7363dfe9c5030bc5"
+}

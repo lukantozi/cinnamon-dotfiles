@@ -1,0 +1,171 @@
+{
+    "cheatsheetFolder": {
+        "type": "filechooser",
+        "default": "~/.local/share/cinnamon/applets/cheaty@centurix/refdocs",
+        "description": "cheatsheetFolder",
+        "select-dir": true,
+        "value": "~/.local/share/cinnamon/applets/cheaty@centurix/refdocs"
+    },
+    "keyOpen": {
+        "type": "keybinding",
+        "description": "Show Cheaty popup menu",
+        "default": "<Super>m",
+        "tooltip": "Set keybinding(s) to show the Cheaty popup menu.",
+        "value": "<Super>m"
+    },
+    "cheatsheets": {
+        "type": "list",
+        "description": "Cheat sheet selector",
+        "columns": [
+            {
+                "id": "enabled",
+                "title": "Enabled",
+                "type": "boolean"
+            },
+            {
+                "id": "name",
+                "title": "Name",
+                "type": "string"
+            },
+            {
+                "id": "description",
+                "title": "Description",
+                "type": "string",
+                "default": ""
+            },
+            {
+                "id": "author",
+                "title": "Author",
+                "type": "string",
+                "default": ""
+            }
+        ],
+        "height": 400,
+        "default": [
+            {
+                "enabled": true,
+                "name": "Git",
+                "description": "Git cheatsheet",
+                "author": "Chris Read"
+            },
+            {
+                "enabled": true,
+                "name": "Shell",
+                "description": "Shell Cheatsheet",
+                "author": "Perette Barella"
+            },
+            {
+                "enabled": true,
+                "name": "Vim",
+                "description": "Vim Cheatsheet",
+                "author": "Gabisonfire"
+            },
+            {
+                "enabled": true,
+                "name": "Regex",
+                "description": "Regular expressions cheatsheet",
+                "author": "Aymeric Deschard"
+            },
+            {
+                "enabled": true,
+                "name": "SQL Cheatsheet",
+                "description": "SQL Cheatsheet",
+                "author": "Chris Read"
+            },
+            {
+                "enabled": true,
+                "name": "Docker",
+                "description": "Docker cheatsheet",
+                "author": "Chris Read"
+            },
+            {
+                "enabled": true,
+                "name": "HTTP Status Codes",
+                "description": "HTTP Status Codes cheatsheet",
+                "author": "Chris Read"
+            },
+            {
+                "enabled": true,
+                "name": "Tmux",
+                "description": "Tmux Cheatsheet",
+                "author": "Guionardo Furlan"
+            },
+            {
+                "enabled": true,
+                "name": "Bootstrap Cheatsheet",
+                "description": "Bootstrap Cheatsheet",
+                "author": "Chris Read"
+            },
+            {
+                "enabled": true,
+                "name": "Markdown",
+                "description": "Markdown cheatsheet",
+                "author": "Chris Read"
+            }
+        ],
+        "show-buttons": false,
+        "value": [
+            {
+                "enabled": true,
+                "name": "Git",
+                "description": "Git cheatsheet",
+                "author": "Chris Read"
+            },
+            {
+                "enabled": true,
+                "name": "Shell",
+                "description": "Shell Cheatsheet",
+                "author": "Perette Barella"
+            },
+            {
+                "enabled": true,
+                "name": "Vim",
+                "description": "Vim Cheatsheet",
+                "author": "Gabisonfire"
+            },
+            {
+                "enabled": true,
+                "name": "Regex",
+                "description": "Regular expressions cheatsheet",
+                "author": "Aymeric Deschard"
+            },
+            {
+                "enabled": true,
+                "name": "SQL Cheatsheet",
+                "description": "SQL Cheatsheet",
+                "author": "Chris Read"
+            },
+            {
+                "enabled": true,
+                "name": "Docker",
+                "description": "Docker cheatsheet",
+                "author": "Chris Read"
+            },
+            {
+                "enabled": true,
+                "name": "HTTP Status Codes",
+                "description": "HTTP Status Codes cheatsheet",
+                "author": "Chris Read"
+            },
+            {
+                "enabled": true,
+                "name": "Tmux",
+                "description": "Tmux Cheatsheet",
+                "author": "Guionardo Furlan"
+            },
+            {
+                "enabled": true,
+                "name": "Bootstrap Cheatsheet",
+                "description": "Bootstrap Cheatsheet",
+                "author": "Chris Read"
+            },
+            {
+                "enabled": true,
+                "name": "Markdown",
+                "description": "Markdown cheatsheet",
+                "author": "Chris Read"
+            }
+        ]
+    },
+    "__md5__": "81ad3abda315bfe43faa9f4d4a4da4f7"
+}

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Metatron-Cyan
+Comment=A dark flat theme with transparent elements
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Metatron-Cyan
+MetacityTheme=Metatron-Cyan
+IconTheme=Mint-Y-Dark-Aqua
+CursorTheme=DMZ-White
+ButtonLayout=menu:minimize,maximize,close
